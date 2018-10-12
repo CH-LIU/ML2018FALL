@@ -1,1 +1,1 @@
-python3.6 test.py $1 ./weight.np $2 
+python3 test.py $1 ./weight.np $2 
