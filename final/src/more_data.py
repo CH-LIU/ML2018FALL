@@ -1,11 +1,12 @@
 import os
+import sys
 from multiprocessing.pool import Pool
 from tqdm import tqdm
 import requests
 import pandas as pd
 def download(pid, sp, ep):
     colors = ['red', 'green', 'blue', 'yellow']
-    DIR = "moredata/"
+    DIR = sys.argv[1]
     v18_url = 'http://v18.proteinatlas.org/images/'
     imgList = pd.read_csv("./HPAv18RBGY_wodpl.csv")
     for i in tqdm(imgList['Id'][sp:ep], postfix=pid):  # [:5] means downloard only first 5 samples, if it works, please remove it
