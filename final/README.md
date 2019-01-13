@@ -1,5 +1,11 @@
 # ML Final
 
+## Download External Training Data
+Run the following command to download the external training data
+```
+python3.6 moredata.py [download file path]
+```
+
 ## Training
 Run the following command to train a model
 ```
