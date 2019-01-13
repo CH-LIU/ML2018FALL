@@ -3,7 +3,7 @@
 ## Download External Training Data
 Run the following command to download the external training data
 ```
-python3.6 moredata.py [download file path]
+python3.6 more_data.py [download file path]
 ```
 
 ## Training
